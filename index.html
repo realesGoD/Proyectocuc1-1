@@ -6,17 +6,22 @@
   <title>Proyecto Universitario - CUC</title>
   <style>
     body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f4f6f9;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
     }
-
-      background: #800000;
+    header {
+      background: linear-gradient(90deg, #800000, #b22222);
       color: white;
       padding: 20px;
       text-align: center;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
     main {
       max-width: 800px;
@@ -27,57 +32,40 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
     h2 {
-  color: #800000;
-  margin-top: 20px;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-       }
-
-    ul {
-  list-style: none;
-  padding-left: 0;
-}
-ul li {
-  background: #f8f8f8;
-  margin: 5px 0;
-  padding: 8px;
-  border-left: 5px solid #800000;
-  border-radius: 5px;
-}
-
+      color: #800000;
+      margin-top: 20px;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
     }
-   footer {
-  text-align: center;
-  padding: 15px;
-  margin-top: 20px;
-  background: #222;
-  color: #ddd;
-  font-size: 14px;
-  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
-}
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      background: #f8f8f8;
+      margin: 5px 0;
+      padding: 8px;
+      border-left: 5px solid #800000;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      background: #222;
+      color: #ddd;
+      font-size: 14px;
+      box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
     }
     a {
-  color: #800000;
-  text-decoration: none;
-  transition: color 0.3s ease;
+      color: #800000;
+      text-decoration: none;
+      transition: color 0.3s ease;
     }
     a:hover {
-  color: #ff3333;
-  text-decoration: underline;
-  }
-    header {
-  background: linear-gradient(90deg, #800000, #b22222);
-  color: white;
-  padding: 20px;
-  text-align: center;
-  animation: fadeIn 1.2s ease-in-out;
-}
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-
+      color: #ff3333;
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -106,7 +94,7 @@ ul li {
       <li>Dark</li>
       <li>Stranger Things</li>
       <li>Game of Thrones</li>
-      <li>After(saga peliculas)</li>
+      <li>After (saga películas)</li>
       <li>La Casa de Papel</li>
       <li>Mr. Robot</li>
       <li>Better Call Saul</li>
@@ -115,11 +103,16 @@ ul li {
     </ul>
 
     <h2>Entregables</h2>
-    <p> <strong>Repositorio en GitHub:</strong> <a href="#" target="_blank"></a></p>
-    <p> <strong>Proyecto en Netlify:</strong> <a href="#" target="_blank"></a></p>
+    <p><strong>Repositorio en GitHub:</strong> <a href="#" target="_blank">Enlace aquí</a></p>
+    <p><strong>Proyecto en Netlify:</strong> <a href="#" target="_blank">Enlace aquí</a></p>
   </main>
 
   <footer>
+    <p>Universidad de la Costa - CUC | Desarrollo Web</p>
+  </footer>
+</body>
+</html>
+
     <p>Universidad de la Costa - CUC | Desarrollo Web</p>
   </footer>
 </body>
